@@ -315,9 +315,9 @@ int _mosquitto_try_connect(struct mosquitto *mosq, const char *host, uint16_t po
 
         int nodelay_flag = 1;
         if (setsockopt(*sock, IPPROTO_TCP, TCP_NODELAY, (void*) &nodelay_flag, sizeof(int)) < 0) {
-            printf("Cannot set nodelay");
+//             printf("Cannot set nodelay");
         } else {
-            printf("nodelay set successfully");
+//            printf("nodelay set successfully");
         }
 
 		if(bind_address){
