@@ -13,7 +13,7 @@ and the Eclipse Distribution License is available at
 Contributors:
    Roger Light - initial implementation and documentation.
 */
-
+#include <netinet/tcp.h>
 #include <assert.h>
 #include <errno.h>
 #include <fcntl.h>
